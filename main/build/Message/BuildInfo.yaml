@@ -1,0 +1,58 @@
+---
+root_path: /Users/droc/tmp/diffrepo/main/build/Message
+compiled_package_info:
+  package_name: Message
+  address_alias_instantiation:
+    Sender: 24163afcc6e33b0a9473852e18327fa9
+    Std: "00000000000000000000000000000001"
+  module_resolution_metadata:
+    ? address: "00000000000000000000000000000001"
+      name: BCS
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: BitVector
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Capability
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Errors
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Event
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: FixedPoint32
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: GUID
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Hash
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Option
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Signer
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Vector
+    : Std
+    ? address: 24163afcc6e33b0a9473852e18327fa9
+      name: Message
+    : Sender
+    ? address: 24163afcc6e33b0a9473852e18327fa9
+      name: NFT
+    : Sender
+    ? address: 24163afcc6e33b0a9473852e18327fa9
+      name: TestNFT
+    : Sender
+  source_digest: 48F2FCF414B974D6D7BB8DA286F9C1D8598FE61DCCD055012F636FCBD6637465
+  build_flags:
+    dev_mode: true
+    test_mode: false
+    generate_docs: false
+    generate_abis: true
+dependencies:
+  - /Users/droc/tmp/diffrepo/main/build/MoveStdlib
